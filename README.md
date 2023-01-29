@@ -383,7 +383,7 @@ my_map
 ```
 
     [0, 2, 8, 26, 82, 249, 755, 2283, 6894, 20813, 62829]
-![image](https://github.com/iMetaScience/iMeta/blob/main/world_map/map1.png)
+![image](map1.png)
 
 
  这里需要注意，最难的地方在于图例，因为这个数据分布不均匀，大部分下载量都很小，集中在1-3000，最大的是中国（下载量是6万多，其次是美国，1万多，排第三的只有3000左右）。<br>
@@ -432,7 +432,7 @@ html.script.add_child(e)
 my_map.save('map2.html')
 my_map
 ```
-![image](https://github.com/iMetaScience/iMeta/blob/main/world_map/map2.png)
+![image](map2.png)
 
 # 画世界地图的备选方法-folium.Choropleth函数
 最后，在folium包中，还可以用另外一个函数Choropleth函数也可以画出上面的图，但是这个方法画出来的图，图例也是有问题的，需要手动修改图例。<br>
@@ -497,4 +497,4 @@ for i,row in data.iterrows():
 my_map.save('map3.html')
 my_map
 ```
-![image](https://github.com/iMetaScience/iMeta/blob/main/world_map/map3.png)
+![image](map3.png)
